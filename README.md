@@ -1,16 +1,46 @@
-# todoapp
+# Todo App
 
-A new Flutter project.
+A simple Flutter TODO app that allows you to manage your tasks.
+
+## Screenshots
+
+![Normal State](screenshots/shot1.png)
+*Caption: Screenshot of the app in its normal state.*
+
+![Task Checked](screenshots/shot2.png)
+*Caption: Screenshot of a task after being checked.*
+
+![Task Deleted](screenshots/shot3.png)
+*Caption: Screenshot of a task being deleted.*
+
+## Features
+
+- Add new tasks to your TODO list.
+- Mark tasks as completed with a checkbox.
+- Remove tasks by swiping.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project, make sure you have Flutter installed. Then, clone the repository:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+git clone https://github.com/your-username/todo-app.git
+cd todo-app
+``` 
+Install the dependencies:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash 
+flutter pub get
+```
+Run the app
+```bash
+flutter run
+```
+## Usage
+Add a new task by tapping the '+' button.
+Mark a task as completed by tapping the checkbox.
+Delete a task by swiping left or right.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Contributions
+Contributions are welcome! If you find a bug or want to add a new feature, please create an issue or submit a pull request.
+
